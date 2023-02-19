@@ -23,7 +23,7 @@ WhatsappChatLoader = download_loader("WhatsappChatLoader")
 
 path = "whatsapp.txt"
 loader = WhatsappChatLoader(path=path)
-documents = loader.load_data(verbose=True)
+documents = loader.load_data(verbose=True) # verbose prints progress
 
 # see what's created
 documents[0]
