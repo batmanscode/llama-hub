@@ -48,7 +48,7 @@ class WhatsappChatLoader(BaseReader):
                 "timestamp": str(row.timestamp)
             }
             
-            docs.append(Document(str(row.timestamp) + " " + row.author + " " + row.message, extra_info=extra_info))
+            docs.append(Document(str(row.timestamp) + " " + row.author + ":" + " " + row.message, extra_info=extra_info))
 
             if verbose:
                 n += 1
