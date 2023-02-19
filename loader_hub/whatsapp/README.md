@@ -12,8 +12,8 @@ For more info see [Whatsapp's Help Center](https://faq.whatsapp.com/118041407917
 
 ## Usage
 
-- Messages will get saved in the format: `timestamp author message`
-- Metadata automatically included: `source` (file name), `author`, `timesamp`
+- Messages will get saved in the format: `timestamp author message`. Useful for when you want to ask about specific people in a group chat.
+- Metadata automatically included: `source` (file name), `author` and `timesamp`.
 
 ```python
 from pathlib import Path
